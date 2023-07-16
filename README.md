@@ -1,3 +1,5 @@
+## TeamChallenge Online Store Project
+
 ### `npm install`
 
 ### `npm start`
