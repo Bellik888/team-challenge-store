@@ -10,4 +10,5 @@ git
 
 Nazar test commit
 
+bodzey-test
 Bodzey test commit!
