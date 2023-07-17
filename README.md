@@ -9,4 +9,4 @@ git
 
 Nazar test commit
 
-Hello
+Hello!
