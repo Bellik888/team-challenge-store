@@ -10,4 +10,4 @@ git
 
 Nazar test commit
 
-Bodzey test commit
+Bodzey test commit!
