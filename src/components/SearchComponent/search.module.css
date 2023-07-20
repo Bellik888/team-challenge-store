@@ -1,0 +1,16 @@
+.searchComponent {
+	max-width: 80rem;
+	padding: 0.5rem 2rem;
+	align-items: center;
+
+	border-radius: 25px;
+	background: #b58497;
+	outline: none;
+	border: none;
+
+	font-family: "Assistant", sans-serif;
+	font-size: 2rem;
+}
+.searchComponentText::placeholder {
+	color: #d1d1d1;
+}
