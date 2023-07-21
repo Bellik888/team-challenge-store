@@ -1,0 +1,54 @@
+.cardWrapper{
+    width: 100%;
+    max-width: 250px;
+    font-family: "Assistant", sans-serif;
+}
+.cardTitle{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Assistant", sans-serif;
+}
+.cardAuthor{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+.starRating {
+    width: 100%;
+    max-width: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #D3BCC5;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+.cardImgReview {
+    width: 20px;
+    height: 20px;
+}
+.cardImgReview:hover{
+    cursor: pointer;
+}
+.starRatingComponent {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Assistant", sans-serif;
+}
+.priceWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardPrice{
+    font-family: "Assistant", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 41px;
+}
+img.cardImgBasket {
+    width: 13%;
+}
+img.cardImgBasket:hover{
+    cursor: pointer;
+}
