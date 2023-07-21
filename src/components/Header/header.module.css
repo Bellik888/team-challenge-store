@@ -1,5 +1,5 @@
 .header {
-	padding: 3rem;
+	padding: 3.5rem 0 0;
 	background-color: #ffe5b4;
 	font-size: 2rem;
 	color: #202020;
@@ -7,12 +7,22 @@
 }
 .headerInner {
 	display: flex;
+	flex-direction: column;
+	gap: 1.4rem;
+}
+.headerTop {
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 4.5rem;
+
+	padding: 0 5rem;
 }
 .headerLogo {
 	display: flex;
+	align-items: center;
 	gap: 0.5rem;
+	flex-shrink: 0;
 
 	user-select: none;
 }
@@ -24,4 +34,23 @@
 .headerLogoText {
 	font-family: "Atma", sans-serif;
 	font-size: 3.2rem;
+	line-height: 1;
+	white-space: nowrap;
+}
+.headerLogoText span {
+	color: #b58497;
+	font-family: inherit;
+	font-size: inherit;
+}
+.headerItems {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 4.5rem;
+	width: 100%;
+}
+
+.headerShoppingCartBtn {
+	width: 3.5rem;
+	height: 3.5rem;
 }
