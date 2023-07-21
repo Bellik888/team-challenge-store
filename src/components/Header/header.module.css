@@ -1,8 +1,8 @@
 .header {
 	padding: 3.5rem 0 0;
-	background-color: #ffe5b4;
+	background-color: var(--main-bg-color);
 	font-size: 2rem;
-	color: #202020;
+	color: var(--main-text-color);
 	font-family: "Assistant", sans-serif;
 }
 .headerInner {
@@ -38,7 +38,7 @@
 	white-space: nowrap;
 }
 .headerLogoText span {
-	color: #b58497;
+	color: var(--accent-color);
 	font-family: inherit;
 	font-size: inherit;
 }

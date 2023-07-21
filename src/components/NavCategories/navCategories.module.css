@@ -17,14 +17,14 @@
 }
 
 .navCategoriesItemActive {
-	background: #b58497;
+	background: var(--accent-color);
 	box-shadow: 0px 0px 10px 0px rgba(32, 32, 32, 0.35) inset;
 	color: #ffe5b4;
 	font-weight: 700;
 }
 .navCategoriesItem:hover {
 	border-radius: 25px 25px 0px 0px;
-	background: #b58497;
+	background: var(--accent-color);
 	box-shadow: 0px 0px 10px 0px rgba(32, 32, 32, 0.35) inset;
 	color: #ffe5b4;
 	font-weight: 700;

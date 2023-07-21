@@ -5,7 +5,7 @@
 	align-items: center;
 
 	border-radius: 25px;
-	background: #b58497;
+	background: var(--accent-color);
 
 	font-family: "Assistant", sans-serif;
 	font-size: 2rem;
@@ -27,7 +27,7 @@
 	background: none;
 	border: none;
 	outline: none;
-	color: #202020;
+	color: var(--main-text-color);
 }
 .searchComponentText::placeholder {
 	color: #d1d1d1;

@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Atma:300,regular,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Assistant:200,300,regular,500,600,700,800);
 
+:root {
+	--main-bg-color: #ffe5b4;
+	--main-text-color: #202020;
+	--accent-color: #b58497;
+}
+
 *,
 *::before,
 *::after {
