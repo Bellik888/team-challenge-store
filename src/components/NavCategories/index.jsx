@@ -1,34 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './navCategories.module.css'
 
+const categories = ['All', 'Category', 'Fiction', 'Education', 'Nature', 'Myths', 'Activities', 'Comics']
+
 const NavCategories = () => {
+	const [active, setActive] = useState('All')
 	return (
 		<nav className={styles.navCategories}>
 			<ul className={styles.navCategoriesList}>
-				<a href='#' className={styles.navCategoriesItemActive}>
-					<li>All</li>
-				</a>
-				<a href='#' className={styles.navCategoriesItem}>
-					<li>Category</li>
-				</a>
-				<a href='#' className={styles.navCategoriesItem}>
-					<li>Fiction</li>
-				</a>
-				<a href='#' className={styles.navCategoriesItem}>
-					<li>Education</li>
-				</a>
-				<a href='#' className={styles.navCategoriesItem}>
-					<li>Nature</li>
-				</a>
-				<a href='#' className={styles.navCategoriesItem}>
-					<li>Myths</li>
-				</a>
-				<a href='#' className={styles.navCategoriesItem}>
-					<li>Activities</li>
-				</a>
-				<a href='#' className={styles.navCategoriesItem}>
-					<li>Comics</li>
-				</a>
+				{categories.map(item => (
+					<button
+						key={item}
+						className={item === active ? styles.navCategoriesItemActive : styles.navCategoriesItem}
+						onClick={() => setActive(item)}
+					>
+						{item}
+					</button>
+				))}
 			</ul>
 		</nav>
 	)
