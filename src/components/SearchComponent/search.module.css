@@ -33,9 +33,9 @@
 	color: #d1d1d1;
 	font-size: 2rem;
 }
-img {
+.searchIcon {
 	transition: transform 0.1s ease;
 }
-img:hover {
+.searchIcon:hover {
 	transform: scale(1.05);
 }
