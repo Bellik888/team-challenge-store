@@ -1,0 +1,19 @@
+.mainPage{
+    display: flex;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.sidebar {
+    width: 20%;
+    float: left;
+    margin-top: 40px;
+}
+
+/* Стили для контейнера книг */
+.books {
+    width: 80%;
+    float: left;
+}
