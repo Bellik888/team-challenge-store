@@ -1,6 +1,6 @@
 .cardWrapper{
     width: 100%;
-    max-width: 270px;
+    max-width: 250px;
     font-family: "Assistant", sans-serif;
     position: relative;
     display: flex;
@@ -17,8 +17,8 @@
 }
 .imagesWrapper{
     width: 100%;
-    max-width: 300px;
-    margin-top: 40px;
+    max-height: 300px;
+    margin-bottom: auto;
 }
 .cardImgTop{
     width: 100%;

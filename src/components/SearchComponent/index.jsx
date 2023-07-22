@@ -12,7 +12,7 @@ const SearchComponent = () => {
 				<div className={styles.searchComponentInner}>
 					<input type='text' className={styles.searchComponentText} placeholder='Search Product' />
 					<button type='submit' onSubmit={onSearch}>
-						<img src='./assets/img/searchIcon.svg' alt='Search' />
+						<img className={styles.searchIcon} src='./assets/img/searchIcon.svg' alt='Search' />
 					</button>
 				</div>
 			</form>

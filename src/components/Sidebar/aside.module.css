@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     width: 20%;
-    float: left;
-    margin-top: 40px;
 }
 .sideBarFilters{
     font-weight: 600;
