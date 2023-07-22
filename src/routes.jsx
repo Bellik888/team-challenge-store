@@ -1,13 +1,14 @@
 import NotFoundPage from './pages/NotFoundPage'
+import Home from "./pages/Home";
 
 const routes = [
 	{
 		path: '/',
-		element: <div>123</div>,
+		element: <Home/>,
 	},
 	{
 		path: '*',
-		element: <NotFoundPage />,
+		element: <NotFoundPage/>,
 	},
 ]
 
