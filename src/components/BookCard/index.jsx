@@ -2,12 +2,12 @@ import React from "react";
 import styles from './bookCard.module.css';
 
 const BookCard = ({book}) => {
-  const cardStyles = book.isSoldOut ? `${styles.cardWrapper} ${styles.notAvailable}` : styles.cardWrapper;
-
   return (
-    <div className={cardStyles}>
+    <div className={`${styles.cardWrapper} ${book.isSoldOut && styles.notAvailable}`}>
       {book.isSoldOut && <div className={styles.stockText}>Out of Stock</div>}
+      <div className={styles.imagesWrapper}>
       <img src={book.image} alt={book.title} className={styles.cardImgTop} width="100%"/>
+      </div>
       <h5 className={styles.cardTitle}>{book.title}</h5>
       <p className={styles.cardAuthor}>{book.author}</p>
       <div className={styles.starRating}>
