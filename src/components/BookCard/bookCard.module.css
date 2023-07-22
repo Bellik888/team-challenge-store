@@ -1,7 +1,11 @@
 .cardWrapper{
     width: 100%;
-    max-width: 250px;
+    max-width: 270px;
     font-family: "Assistant", sans-serif;
+    position: relative;
+}
+.cardWrapper:hover{
+    cursor: pointer;
 }
 .cardTitle{
     font-weight: 600;
@@ -11,6 +15,7 @@
 }
 .cardImgTop{
     width: 100%;
+    height: 50vh;
 }
 .cardAuthor{
     font-weight: 400;
@@ -25,6 +30,7 @@
     background-color: #D3BCC5;
     border-radius: 20px;
     padding: 0px 10px;
+    margin-bottom: 20px;
 }
 .cardImgReview {
     width: 20px;
@@ -54,4 +60,20 @@
 }
 .cardImgBasket:hover{
     cursor: pointer;
+}
+.notAvailable {
+    opacity: 0.5;
+}
+.notAvailable:hover{
+    cursor: not-allowed;
+}
+.stockText {
+    color: #202020;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    width: 100%;
 }
