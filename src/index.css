@@ -55,7 +55,7 @@ li {
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding-inline: 50px;
+	/* padding-inline: 50px; */
 }
 .App {
 	height: 100%;

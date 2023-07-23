@@ -1,5 +1,8 @@
 .introSlider {
+	/* border: 1px #000 solid; */
+	/* padding: 3rem 0; */
 	background-color: var(--accent-color);
 }
 .introSliderInner {
+	padding: 5rem 0;
 }

@@ -10,9 +10,13 @@ const Home = () => {
 		<>
 			<div className={styles.mainPage}>
 				<IntroSlider />
-				<div className={styles.mainContent}>
-					<Sidebar />
-					<BooksList books={books} />
+				<div>
+					<div className='container'>
+						<div className={styles.mainContent}>
+							<Sidebar />
+							<BooksList books={books} />
+						</div>
+					</div>
 				</div>
 			</div>
 		</>
