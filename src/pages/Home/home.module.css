@@ -1,4 +1,7 @@
-.mainPage{
-    display: flex;
-    padding-block: 50px;
+.mainPage {
+	display: flex;
+	flex-direction: column;
+}
+.mainContent {
+	display: flex;
 }
