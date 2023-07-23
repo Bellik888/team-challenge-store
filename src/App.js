@@ -12,7 +12,7 @@ const App = () => {
 		<div className='App'>
 			<Header />
 			<main className='mainContent'>
-				<div className='container'>{content}</div>
+				<div>{content}</div>
 			</main>
 			<Footer />
 		</div>
